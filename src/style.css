@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    color: darkgoldenrod;
+    font-family: Impact;
+    font-size: 8vw;
+    background: url(banner.jpg);
+    background-size: auto 100%;
+}
+
+body { 
+    background: url(bg_gif.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#menu-button {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    background-color: blue;
+}
+
+#menu-button:hover {
+    background-color: white;
+    color:blue;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-items a {
+    color: white;
+    background-color: aqua;
+    display: block;
+}
+
+.menu .menu-items {
+    display: none;
+    position: absolute;
+    min-width: 100%;
+}
+
+.menu:hover .menu-items {
+    display: block;
+}
+
+.menu:hover .menu-items a:hover{
+    background-color: white;
+    color: aqua;
+}
