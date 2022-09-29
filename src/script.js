@@ -18,7 +18,6 @@ function card0f(num)
     switch(num) 
     {
         case 1:
-            //cardS();
             const T = new Date();
             let year = T.getFullYear();
             year = year - 1997;
@@ -27,7 +26,6 @@ function card0f(num)
             break;
 
         case 2:
-            //cardS();
             document.getElementById("card0").innerHTML = 'I know how to use Git / Github in my projects. <br> And I have done coding projects using: <ul> <li>C / C++</li> <li>C#</li> <li>JavaScript</li> <li>Python</li> <li>HTML / CSS</li> </ul>'
             break;
         default:
