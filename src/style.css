@@ -3,11 +3,18 @@ h1 {
     color: darkgoldenrod;
     font-family: Impact;
     font-size: 8vw;
-    background: url(banner.jpg);
-    background-size: auto 100%;
+    background: url(banner.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0;
 }
 /* Background image and responsive sizing */
 body { 
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
     background: url(bg_gif.gif) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -62,8 +69,18 @@ body {
     visibility: hidden;
     width: 40vw;
     margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0;
+    background-color: white;
 }
 
 #card0 {
     visibility: hidden;
+    padding: 16px 16px;
+}
+
+.btn {
+    padding: 3px 3px;
+    border-radius: 12px;
+    font-size: 16px;
 }
