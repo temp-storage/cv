@@ -1,5 +1,6 @@
  function cardS()
  {
+    document.title = "Homepage";
     if (document.getElementById("card0").style.visibility == "visible" && document.getElementById("cardBase").style.visibility == "visible")
         {
             document.getElementById("card0").style.visibility = "hidden";
@@ -18,6 +19,7 @@ function card0f(num)
     switch(num) 
     {
         case 1:
+            document.title = "Homepage -- Welcome";
             const T = new Date();
             let year = T.getFullYear();
             year = year - 1997;
@@ -26,11 +28,15 @@ function card0f(num)
             break;
 
         case 2:
-            document.getElementById("card0").innerHTML = 'I know how to use Git / GitHub in my projects. <br> And I have done coding projects using: <ul> <li>C / C++</li> <li>C#</li> <li>JavaScript</li> <li>Python</li> <li>HTML / CSS</li> </ul> <br> My personal projects include: <ul> <li>Games</li> <li>Android apps</li> <li>Arduino controlled devices, some with custom 3D printed parts</li> <li>Software delopement with and without 3rd party libraries</li> <li>Web developement</li> </ul>'
+            document.title = "Homepage -- Experience and skills";
+            document.getElementById("card0").innerHTML = 
+            'I know how to use Git / GitHub in my projects. <br> And I have done coding projects using: <ul> <li>C / C++</li> <li>C#</li> <li>JavaScript</li> <li>Python</li> <li>HTML / CSS</li> </ul> <br> My personal projects include: <ul> <li>Games</li> <li>Android apps</li> <li>Arduino controlled devices, some with custom 3D printed parts</li> <li>Software delopement with and without 3rd party libraries</li> <li>Web developement</li> </ul>'
             break;
 
         case 3:
-            document.getElementById("card0").innerHTML = 'I have always had an interest towards technology. <br> My source of motivation is my curioty towards different technological applications and what can be achieved using technology as a tool. <br> I am a problem solver and I aim to better myself and constantly improve my skillset with research and practise. <br> I am also relatively easy to work with. I am an introvert but always eager to help others if I can. <br> My greatest weakness is self-doubt.'
+            document.title = "Homepage -- Personality and interests";
+            document.getElementById("card0").innerHTML = 
+            'I have always had an interest towards technology. <br> My source of motivation is my curioty towards different technological applications and what can be achieved using technology as a tool. <br> I am a problem solver and I aim to better myself and constantly improve my skillset with research and practise. <br> I am also relatively easy to work with. I am an introvert but always eager to help others if I can. <br> My greatest weakness is self-doubt.'
             break;
 
         default:
