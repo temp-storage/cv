@@ -58,14 +58,12 @@ body {
 
 /* Menu Control End */
 
-#card1 {
+#cardBase {
     visibility: hidden;
     width: 40vw;
     margin: 0 auto;
 }
 
-#card2 {
+#card0 {
     visibility: hidden;
-    width: 40vw;
-    margin: 0 auto;
 }
