@@ -30,7 +30,7 @@ function card0f(num)
         case 2:
             document.title = "Homepage -- Experience and skills";
             document.getElementById("card0").innerHTML = 
-            'I know how to use Git / GitHub in my projects. <br> And I have done coding projects using: <ul> <li>C / C++</li> <li>C#</li> <li>JavaScript</li> <li>Python</li> <li>HTML / CSS</li> </ul> <br> My personal projects include: <ul> <li>Games</li> <li>Android apps</li> <li>Arduino controlled devices, some with custom 3D printed parts</li> <li>Software delopement with and without 3rd party libraries</li> <li>Web developement</li> </ul>'
+            'I know how to use Git / GitHub in my projects. <br> And I have done coding projects using: <ul> <li>C / C++</li> <li>C#</li> <li>JavaScript</li> <li>Python</li> <li>HTML / CSS</li> <li>Bootstrap</li> </ul> <br> My personal projects include: <ul> <li>Games</li> <li>Android apps</li> <li>Arduino controlled devices, some with custom 3D printed parts</li> <li>Software delopement with and without 3rd party libraries</li> <li>Web developement</li> </ul>'
             break;
 
         case 3:
