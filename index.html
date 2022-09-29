@@ -20,8 +20,8 @@
         <button id="menu-button" class="btn">
             Menu
             <div class="menu-items">
-                <a class="btn" onclick="card1f()">Item 1</a>
-                <a class="btn">Item 2</a>
+                <a class="btn" onclick="card1f()">Welcome</a>
+                <a class="btn" onclick="card2f()">Experience and skills</a>
                 <a class="btn">Item 3</a>
                 <a class="btn">Item 4</a>
                 <a class="btn">Item 5</a>
@@ -29,8 +29,33 @@
         </button>
     </div>
     <!--Menu End-->
-    <div id="card1" class="card">
-        <div class="card-body">This is an information card</div>
-      </div>
+    <div id="card1" class="card"> <!--Card1-->
+        <div class="card-body" onclick="card1f()">
+            Hello, my name is Pyry Vehniäinen.
+            I am a 
+            <script>
+                const T = new Date();
+                let year = T.getFullYear();
+                year = year - 1997;
+                document.writeln(year);
+            </script>
+            years old software developer. <br>
+            This is my portfolio website. <br>
+            Feel free to look around. <br>
+        </div>
+      </div> <!--Card1-->
+      <div id="card2" class="card"> <!--Card2-->
+        <div class="card-body" onclick="card2f()">
+            I know how to use Git / Github in my projects. <br>
+            And I have done coding projects using:
+            <ul>
+                <li>C / C++</li>
+                <li>C#</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>HTML / CSS</li>
+            </ul>  
+        </div>
+      </div> <!--Card2-->
 </body>
 </html>

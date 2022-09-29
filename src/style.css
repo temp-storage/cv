@@ -44,7 +44,7 @@ body {
 .menu .menu-items {
     display: none;
     position: absolute;
-    min-width: 100%;
+    min-width: 150%;
 }
 
 .menu:hover .menu-items {
@@ -59,6 +59,12 @@ body {
 /* Menu Control End */
 
 #card1 {
+    visibility: hidden;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+#card2 {
     visibility: hidden;
     width: 40vw;
     margin: 0 auto;
