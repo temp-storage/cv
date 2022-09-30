@@ -36,7 +36,7 @@ function card0f(num)
         case 3:
             document.title = "Homepage -- Personality and interests";
             document.getElementById("card0").innerHTML = 
-            'I have always had an interest towards technology. <br> My source of motivation is my curioty towards different technological applications and what can be achieved using technology as a tool. <br> I am a problem solver and I aim to better myself and constantly improve my skillset with research and practise. <br> I am also relatively easy to work with. I am an introvert but always eager to help others if I can. <br> My greatest weakness is self-doubt.'
+            'I have always had an interest towards technology. <br> My source of motivation is my curiosity towards different technological applications and what can be achieved using technology as a tool. <br> I am a problem solver and I aim to better myself and constantly improve my skillset with research and practise. <br> I am also relatively easy to work with. I am an introvert but always eager to help others if I can. <br> My greatest weakness is self-doubt.'
             break;
 
         default:
