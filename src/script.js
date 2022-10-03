@@ -1,6 +1,7 @@
  function cardS()
  {
     document.title = "Homepage";
+    document.body.style.backgroundImage = "url(src/bg_gif2.gif)"
     if (document.getElementById("card0").style.visibility == "visible" && document.getElementById("cardBase").style.visibility == "visible")
         {
             document.getElementById("card0").style.visibility = "hidden";
@@ -20,6 +21,7 @@ function card0f(num)
     {
         case 1:
             document.title = "Homepage -- Welcome";
+            document.body.style.backgroundImage = "url(src/bg_gif3.gif)";
             const T = new Date();
             let year = T.getFullYear();
             year = year - 1997;
