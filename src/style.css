@@ -1,98 +1,40 @@
-h1 {
-    text-align: center;
-    color: darkgoldenrod;
-    font-family: Impact;
-    font-size: 6vw;
-    background: url(img/banner.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+body {
+    /*background-color: rgb(62, 150, 250);*/
+    background-color: #09008a;
+}
+
+.header {
+    font-family: 'Arial';
+    font-size: 20px;
+}
+
+ul.header {
+    list-style-type: none;
     margin: 0;
-}
-/* Background image and responsive sizing */
-body { 
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    background: url(img/bg_gif2.gif) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(202, 201, 201);
+    position: -webkit-sticky; /* For Safari browsers */
+    position: sticky;
+    top: 0;
   }
-
-/* Menu Control Start */
-
-#menu-button {
+  
+li.header {
+    float: left;
+  }
+  
+li.header a {
+    display: block;
+    color: white;
     text-align: center;
-    color: white;
-    font-family: Arial, serif;
-    font-size: 3vw;
-    font-weight: bold;
-    padding: 10px 8px;
-    background-color: blue;
-}
-
-#menu-button:hover {
-    background-color: white;
-    color:blue;
-}
-
-.menu {
-    margin-top: 3vw;
-    margin-left: 2vw;
-    position: relative;
-    display: inline-block;
-}
-
-.menu-items a {
-    color: white;
-    background-color: aqua;
-    display: block;
-    padding: 1vw;
-    font-size: 2vw;
-}
-
-.menu .menu-items {
-    display: none;
-    position: absolute;
-    min-width: 150%;
-}
-
-.menu:hover .menu-items {
-    display: block;
-    padding: 15px;
-}
-
-.menu:hover .menu-items a:hover{
-    background-color: white;
-    color: aqua;
-}
-
-/* Menu Control End */
-
-#cardBase {
-    visibility: hidden;
-    width: 40vw;
-    margin: 0 auto;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0;
-    background-color: white;
-}
-
-#card0 {
-    visibility: hidden;
-    padding: 16px 16px;
-    font-family: Verdana, sans-serif;
-    font-size: clamp(20px, 2vw, 20);
-}
-
-.btn {
-    padding: 3px 3px;
-    border-radius: 12px;
-}
-
-ul {
-    margin-top: 0;
-}
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li.header a:hover {
+    background-color: rgb(13, 0, 201);
+  }
+  
+.active {
+    background-color: #0011fc;
+  }
