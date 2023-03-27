@@ -1,40 +1,31 @@
 body {
-    /*background-color: rgb(62, 150, 250);*/
-    background-color: #09008a;
+  background-color: white;
 }
 
-.header {
-    font-family: 'Arial';
-    font-size: 20px;
+.block {
+  background-color: blue;
+  height: 150px;
 }
 
-ul.header {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(202, 201, 201);
-    position: -webkit-sticky; /* For Safari browsers */
-    position: sticky;
-    top: 0;
-  }
-  
-li.header {
-    float: left;
-  }
-  
-li.header a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-li.header a:hover {
-    background-color: rgb(13, 0, 201);
-  }
-  
-.active {
-    background-color: #0011fc;
-  }
+h1 {
+  color: white;
+  font-family: 'poppins';
+  font-size: 36px;
+  text-align: left;
+  margin-left: 230px;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+img {
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-top: 50px;
+  float: left;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(/src/FontsFree-Net-Poppins-ExtraBold.ttf);
+}
